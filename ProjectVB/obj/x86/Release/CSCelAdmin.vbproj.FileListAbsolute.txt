@@ -1,0 +1,15 @@
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Release\CSCelAdmin.exe.config
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Release\CSCelAdmin.exe
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Release\CSCelAdmin.pdb
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Release\CSCelAdmin.xml
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\ResolveAssemblyReference.cache
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.CSF_DatabaseParameter.resources
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.CSF_ErrorMessageBox.resources
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.MainForm.resources
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.Resources.resources
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.PasteText.resources
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\GenerateResource.read.1.tlog
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\GenerateResource.write.1.tlog
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.exe
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.xml
+F:\User\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Release\CSCelAdmin.pdb
