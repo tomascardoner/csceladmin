@@ -76,27 +76,27 @@
     <Import Include="System.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_Constants.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Constants.vb">
       <Link>CS_Constants.vb</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_Database_ADONET.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Database_ADONET.vb">
       <Link>CS_Database_ADONET.vb</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_Encryption_TripleDES.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Encryption_TripleDES.vb">
       <Link>CS_Encryption_TripleDES.vb</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_Error.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Error.vb">
       <Link>CS_Error.vb</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_ErrorMessageBox.designer.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.designer.vb">
       <Link>CS_ErrorMessageBox.designer.vb</Link>
       <DependentUpon>CS_ErrorMessageBox.vb</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_ErrorMessageBox.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.vb">
       <Link>CS_ErrorMessageBox.vb</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_Form.vb">
+    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Form.vb">
       <Link>CS_Form.vb</Link>
     </Compile>
     <Compile Include="CSCelAdmin.vb" />
@@ -143,7 +143,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\..\..\..\Users\Tomas\Dropbox\Cardoner Sistemas\Framework\Visual Basic .NET\CS_ErrorMessageBox.resx">
+    <EmbeddedResource Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.resx">
       <Link>CS_ErrorMessageBox.resx</Link>
       <DependentUpon>CS_ErrorMessageBox.vb</DependentUpon>
     </EmbeddedResource>
