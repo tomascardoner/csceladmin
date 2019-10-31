@@ -1,4 +1,4 @@
-﻿Public Class Splash
+﻿Public Class formSplash
 
     Private Sub Splash_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Text = My.Application.Info.Title

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ViewData
+Partial Class formViewData
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -133,7 +133,7 @@ Partial Class ViewData
         '
         Me.mnuMainVerificar.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuMainVerificarFacturaSeleccionada, Me.mnuMainVerificarFacturaDetalleSeleccionada, Me.ToolStripMenuItem1, Me.mnuMainVerificarFacturaTodas, Me.mnuMainVerificarFacturaDetalleTodas})
         Me.mnuMainVerificar.Name = "mnuMainVerificar"
-        Me.mnuMainVerificar.Size = New System.Drawing.Size(145, 20)
+        Me.mnuMainVerificar.Size = New System.Drawing.Size(144, 20)
         Me.mnuMainVerificar.Text = "Verificar Inconsistencias"
         '
         'mnuMainVerificarFacturaSeleccionada
@@ -165,7 +165,7 @@ Partial Class ViewData
         Me.mnuMainVerificarFacturaDetalleTodas.Size = New System.Drawing.Size(313, 22)
         Me.mnuMainVerificarFacturaDetalleTodas.Text = "Encabezado y detalle de todas las Facturas"
         '
-        'ViewData
+        'formViewData
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -174,7 +174,7 @@ Partial Class ViewData
         Me.Controls.Add(Me.stsbarMain)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "ViewData"
+        Me.Name = "formViewData"
         Me.Text = "Verificar Datos"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.stsbarMain.ResumeLayout(False)

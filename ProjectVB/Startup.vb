@@ -1,27 +1,16 @@
 ﻿Module Startup
-    '#####################################################
-    'APPLICATION CONSTANTS & VARIABLES
 
-    '/////////////////////////////////////////////////////
-    'ERROR
+#Region "Declarations"
+
     Friend Const ERROR_CUSTOM_DIALOG As Boolean = True
     Friend fTrapErrors As Boolean
 
-    '/////////////////////////////////////////////////////
-    'DATABASE
     Friend fDatabase As CS_Database_ADONET
-    'Friend Const DATABASE_IDENTIFIER = "{932374D6-96EC-4296-8E93-252004B280DF}"
-    '#####################################################
+
+#End Region
 
     Public Sub Main()
         Dim StartTime As Date
-
-        '/////////////////////////////////////////////////////
-        'ALLOW ONLY ONE INSTANCE
-        'If My.Applicat Then
-        '    ActivatePrevInstance()
-        '    Exit Sub
-        'End If
 
         Cursor.Current = Cursors.AppStarting
 
@@ -32,7 +21,7 @@
         Debug.Print(My.Application.Log.DefaultFileLogWriter.FullLogFileName)
         My.Application.Log.WriteEntry("*** Application Starts ***", TraceEventType.Information)
 
-        Splash.Show()
+        formSplash.Show()
 
         '/////////////////////////////////////////////////////
         'DATABASE OPEN - START
@@ -41,8 +30,8 @@
         fDatabase.CreateConnectionString(My.Settings.DBConnection_Provider)
 
         If Not fDatabase.Connect Then
-            Splash.Close()
-            Splash = Nothing
+            formSplash.Close()
+            formSplash = Nothing
             Exit Sub
         End If
         'DATABASE OPEN - END
@@ -54,10 +43,10 @@
         Loop
         '        End If
 
-        MainForm.Show()
+        formMain.Show()
 
-        Splash.Close()
-        Splash.Dispose()
+        formSplash.Close()
+        formSplash.Dispose()
 
         Cursor.Current = Cursors.Default
 

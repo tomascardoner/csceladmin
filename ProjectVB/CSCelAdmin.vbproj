@@ -76,6 +76,20 @@
     <Import Include="System.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\framework-vbnet\CS_ValueTranslation.vb">
+      <Link>CS_ValueTranslation.vb</Link>
+    </Compile>
+    <Compile Include="..\..\framework-vbnet\ErrorHandler.vb">
+      <Link>ErrorHandler.vb</Link>
+    </Compile>
+    <Compile Include="..\..\framework-vbnet\ErrorHandlerMessageBox.designer.vb">
+      <Link>ErrorHandlerMessageBox.designer.vb</Link>
+      <DependentUpon>ErrorHandlerMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\framework-vbnet\ErrorHandlerMessageBox.vb">
+      <Link>ErrorHandlerMessageBox.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Constants.vb">
       <Link>CS_Constants.vb</Link>
     </Compile>
@@ -85,26 +99,15 @@
     <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Encryption_TripleDES.vb">
       <Link>CS_Encryption_TripleDES.vb</Link>
     </Compile>
-    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Error.vb">
-      <Link>CS_Error.vb</Link>
-    </Compile>
-    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.designer.vb">
-      <Link>CS_ErrorMessageBox.designer.vb</Link>
-      <DependentUpon>CS_ErrorMessageBox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.vb">
-      <Link>CS_ErrorMessageBox.vb</Link>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Form.vb">
       <Link>CS_Form.vb</Link>
     </Compile>
-    <Compile Include="CSCelAdmin.vb" />
-    <Compile Include="MainForm.vb">
+    <Compile Include="PasteText.vb" />
+    <Compile Include="formMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.vb">
-      <DependentUpon>MainForm.vb</DependentUpon>
+    <Compile Include="formMain.Designer.vb">
+      <DependentUpon>formMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -122,33 +125,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PasteText.Designer.vb">
-      <DependentUpon>PasteText.vb</DependentUpon>
+    <Compile Include="formPasteText.Designer.vb">
+      <DependentUpon>formPasteText.vb</DependentUpon>
     </Compile>
-    <Compile Include="PasteText.vb">
+    <Compile Include="formPasteText.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Splash.Designer.vb">
-      <DependentUpon>Splash.vb</DependentUpon>
+    <Compile Include="formSplash.Designer.vb">
+      <DependentUpon>formSplash.vb</DependentUpon>
     </Compile>
-    <Compile Include="Splash.vb">
+    <Compile Include="formSplash.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Startup.vb" />
-    <Compile Include="ViewData.Designer.vb">
-      <DependentUpon>ViewData.vb</DependentUpon>
+    <Compile Include="formViewData.Designer.vb">
+      <DependentUpon>formViewData.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewData.vb">
+    <Compile Include="formViewData.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VerifyData.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_ErrorMessageBox.resx">
-      <Link>CS_ErrorMessageBox.resx</Link>
-      <DependentUpon>CS_ErrorMessageBox.vb</DependentUpon>
+    <EmbeddedResource Include="..\..\framework-vbnet\ErrorHandlerMessageBox.resx">
+      <Link>ErrorHandlerMessageBox.resx</Link>
+      <DependentUpon>ErrorHandlerMessageBox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.vb</DependentUpon>
+    <EmbeddedResource Include="formMain.resx">
+      <DependentUpon>formMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -156,14 +160,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="PasteText.resx">
-      <DependentUpon>PasteText.vb</DependentUpon>
+    <EmbeddedResource Include="formPasteText.resx">
+      <DependentUpon>formPasteText.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Splash.resx">
-      <DependentUpon>Splash.vb</DependentUpon>
+    <EmbeddedResource Include="formSplash.resx">
+      <DependentUpon>formSplash.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewData.resx">
-      <DependentUpon>ViewData.vb</DependentUpon>
+    <EmbeddedResource Include="formViewData.resx">
+      <DependentUpon>formViewData.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
