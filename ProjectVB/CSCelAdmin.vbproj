@@ -76,6 +76,9 @@
     <Import Include="System.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\framework-vbnet\Constants.vb">
+      <Link>Constants.vb</Link>
+    </Compile>
     <Compile Include="..\..\framework-vbnet\CS_ValueTranslation.vb">
       <Link>CS_ValueTranslation.vb</Link>
     </Compile>
@@ -89,9 +92,6 @@
     <Compile Include="..\..\framework-vbnet\ErrorHandlerMessageBox.vb">
       <Link>ErrorHandlerMessageBox.vb</Link>
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Constants.vb">
-      <Link>CS_Constants.vb</Link>
     </Compile>
     <Compile Include="C:\Data\Cardoner Sistemas\Development\framework-vbnet\CS_Database_ADONET.vb">
       <Link>CS_Database_ADONET.vb</Link>
