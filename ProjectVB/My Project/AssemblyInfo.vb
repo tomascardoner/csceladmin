@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("Cardoner Sistemas")> 
 <Assembly: AssemblyProduct("CS-CelAdmin")>
-<Assembly: AssemblyCopyright("Copyright © 2010-2019 Cardoner Sistemas")>
+<Assembly: AssemblyCopyright("Copyright © 2010-2020 Cardoner Sistemas")>
 <Assembly: AssemblyTrademark("® CS-CelAdmin 2011")> 
 
 <Assembly: ComVisible(False)>

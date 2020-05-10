@@ -45,7 +45,7 @@
             SumaControl = 0
             SumaControl += FromDBValueToDecimalValueOrZeroIfIsNull(.Cells("Cargos_Subtotal").Value)
             SumaControl += FromDBValueToDecimalValueOrZeroIfIsNull(.Cells("Impuesto_Subtotal").Value)
-            ' SumaControl += FromDBValueToDecimalValueOrZeroIfIsNull(.Cells("Redondeo").Value)
+            SumaControl += FromDBValueToDecimalValueOrZeroIfIsNull(.Cells("Redondeo").Value)
             If SumaControl <> FromDBValueToDecimalValueOrZeroIfIsNull(.Cells("Total").Value) Then
                 Dim message As String
                 message = String.Format("Esta Factura ({0}) tiene una inconstistencia entre la suma del Subtotal de Cargos + el SubTotal de Impuestos y el Total de la Factura.", .Cells("Numero").Value)

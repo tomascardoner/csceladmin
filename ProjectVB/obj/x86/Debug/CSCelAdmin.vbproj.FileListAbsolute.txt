@@ -51,11 +51,9 @@ C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Debug\CSCelAdmin
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\Interop.MSDASC.dll
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.vbproj.ResolveComReference.cache
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.exe
-C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.xml
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.pdb
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Debug\CSCelAdmin.exe
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Debug\CSCelAdmin.pdb
-C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\bin\Debug\CSCelAdmin.xml
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.Resources.resources
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.vbproj.GenerateResource.Cache
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.CardonerSistemas.ErrorHandlerMessageBox.resources
@@ -63,3 +61,4 @@ C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelA
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.formPasteText.resources
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.formSplash.resources
 C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.formViewData.resources
+C:\Data\Cardoner Sistemas\Development\CS-CelAdmin\ProjectVB\obj\x86\Debug\CSCelAdmin.vbproj.CoreCompileInputs.cache
